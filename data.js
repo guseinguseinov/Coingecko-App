@@ -8,9 +8,7 @@ const __dirname = path.dirname(__filename);
 const tokenIdArray = [];
 
 export function getData(url) {
-    return new Promise(res => {
-        res(axios.get(url));
-    })
+    return axios.get(url);
 }
 
 export async function checkIfFileExists (path, all = false) {

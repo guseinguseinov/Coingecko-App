@@ -23,11 +23,6 @@ $ npm i
 ### 3. Start application
 
 ```
-$ npm run start
-```
-or just
-
-```
 $ node app
 ```
 
